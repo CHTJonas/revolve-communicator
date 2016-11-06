@@ -6,7 +6,6 @@ Serial rConn;
 PrintWriter wFile;
 CueStack cues;
 
-
 void setup() {
   //wConn = new Serial(this, Serial.list()[1], 1200);
   rConn = new Serial(this, Serial.list()[3], 1200);
